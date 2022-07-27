@@ -29,7 +29,7 @@
    docker compose up -d
    ```
 
-###### Verify
+### Verify
 
 ![图片1.png](assets/557bc07946d50855e7a8e1141fa841e95bf81bfd.png)
 
@@ -51,7 +51,7 @@ If successful, you will see
 
 ### 
 
-### Q.A
+### Q&A
 
 1. Can I use it offline?
    
