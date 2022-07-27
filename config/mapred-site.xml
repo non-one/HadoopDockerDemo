@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<configuration>
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
+    </property>
+
+    <!--历史服务器端地址-->
+    <property>
+        <name>mapreduce.jobhistory.address</name>
+        <value>hadoop-master:10020</value>
+    </property>
+    <!--历史服务器web端地址:-->
+    <property>
+        <name>mapreduce.jobhistory.webapp.address</name>
+        <value>hadoop-master:19888</value>
+    </property>
+    
+    <!-- fix some bugs -->
+    <property>
+        <name>yarn.app.mapreduce.am.env</name>
+        <value>HADOOP_MAPRED_HOME=/usr/local/hadoop</value>
+    </property>
+    <property>
+        <name>mapreduce.map.env</name>
+        <value>HADOOP_MAPRED_HOME=/usr/local/hadoop</value>
+    </property>
+    <property>
+        <name>mapreduce.reduce.env</name>
+        <value>HADOOP_MAPRED_HOME=/usr/local/hadoop</value>
+    </property>
+</configuration>

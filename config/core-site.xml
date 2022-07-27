@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<configuration>
+<!-- 数据存储目录，默认/tmp -->
+    <property>
+        <name>hadoop.tmp.dir</name>
+        <value>file:/root/tmp</value>
+    </property>
+<!-- 设置hdfs NameNode -->
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://hadoop-master:8020/</value>
+    </property>
+</configuration>
