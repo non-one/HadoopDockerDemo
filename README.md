@@ -11,7 +11,7 @@
   
   > just make sure `docker compose` can work
 
-- Download [hadoop-3.2.4.tar.gz](https://github.com/non-one/HadoopDockerDemo/releases/download/dep/hadoop-3.2.4.tar.gz)
+- Download [hadoop-3.2.4.tar.gz](https://github.com/non-one/HadoopDockerDemo/releases/download/dep/hadoop-3.2.4.tar.gz) and **Put the file in the same level directory of Dockerfile**
 
 ### Quick start
 
